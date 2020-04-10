@@ -2,90 +2,332 @@ package com.example.pizza;
 
 public class Utils {
 
-    public static final String TITLE1 = "Next level Margherita pizza";
-    public  static final String DESCRIPTION1 = "Forget takeaways – you can’t beat a homemade Margherita pizza topped with fresh tomato sauce and melted cheese. Here's how to master this everyday classic.....";
-    public static final String RECIPE1 =  "First, make the dough. Tip the flour into a bowl and add 300ml tepid water. Mix together and set aside at room temperature for 1 hr. Dissolve the yeast in 2 tbsp water and mix this and 15g of salt through the dough. Cover with cling film and leave somewhere warm to double in size for a few hours. For a sourer flavour, leave in the fridge for at least 8 hrs and up to 24 hrs – the longer you leave it the sourer it will be.\n" +
-        "\n" +
-        "When the dough is ready, tip it onto a lightly floured surface and divide into four. Roll into balls and leave to rest, covered with a tea towel or cling film for another hour.\n" +
-        "\n" +
-        "Now make the tomato sauce. Drain some of the juice from the can and tip the rest into a bowl with the olive oil, oregano and a generous pinch of salt, then either scrunch everything together with your fingers for a chunky sauce or blitz with a stick blender if you want it smooth. Tie the basil stalks together, bruise with the back of a knife and place in the sauce. Leave the sauce at room temperature until needed.\n" +
-        "\n" +
-        "To make the pizza, heat a grill to its highest setting and get a heavy frying pan. On a floured surface push and stretch one of the balls of dough out into a circle roughly the same size as the frying pan. Slip the round onto a floured baking sheet and top with a quarter of the sauce, a scattering of cheese, a few basil leaves and a quarter of the mozzarella.\n" +
-        "\n" +
-        "Get the pan very hot and carefully slide the pizza onto it. Cook for 2 mins, then put the pan under the grill for another 2 mins until the sides are puffed up and the cheese has melted. Lift onto a board, drizzle with a little olive oil if you like, then cut into wedges and serve while you make the next one.";
+    public static final String TITLE1 = "\"Молниеносная\" пицца из бездрожжевого теста";
+    public  static final String DESCRIPTION1 = "Никогда бы не поверила, что пиццу можно приготовить так быстро, если бы не попался этот рецепт. Все очень просто и легко! Тесто без дрожжей получается тонким, хрустящим снаружи и мягким внутри, невероятно вкусным! Начинку можно добавлять вашу любимую.";
+    public static final String RECIPE1 = "Продукты\n" +
+            "Для теста:\n" +
+            "Мука - 400 г + для посыпания противня\n" +
+            "Соль - 1 ч. ложка\n" +
+            "Разрыхлитель - 1 ч. ложка (с горкой)\n" +
+            "Вода - 200 мл\n" +
+            "Масло растительное - 5 ч. ложек + для смазывания противня\n" +
+            "*\n" +
+            "Для начинки:\n" +
+            "Колбаса\n" +
+            "Сыр твёрдый\n" +
+            "Соус томатный - 2 ст. ложки\n" +
+            "Лук репчатый - 1 шт.\n" +
+            "Перец сладкий - 1 шт.\n" +
+            "Орегано - 0,5 ч. ложки" +
+            "\n" +
+            "\n" +
+            "\n" + "\n" +
+            "Подготовим продукты для пиццы.\n" +
+            "1. Перед тем как начнем готовить, включим духовку, пусть разогревается." + "\n" +
+            "2. Готовим быстрое тесто для пиццы. Для этого муку смешиваем с солью и разрыхлителем. Вливаем масло и воду."+ "\n" +
+            "3. Замешиваем 5-7 минут, тесто получается мягким и слегка липнет к рукам. Сразу делим на две равные части - получится две пиццы."+ "\n" +
+            "4. Выкладываем на смазанный маслом и присыпанный мукой противень (у меня дно от разъемной формы диаметром 24 см), выравниваем и формируем небольшие бортики."+ "\n" +
+            "5. Готовим начинку для пиццы. Для этого лук нарезаем кольцами, сладкий перец - тонкой соломкой. Колбасу режем кружочками, а сыр трем на крупной терке."+ "\n" +
+            "6. Смазываем тесто густым томатным соусом (у нас домашний), посыпаем щепоткой орегано и выкладываем начинку. Сверху посыпаем сыром."+ "\n" +
+            "7. Выпекается быстрая пицца из бездрожжевого теста в разогретой духовке минут 15-20 при температуре 230 градусов. Следите за пиццей, у всех духовки разные.\n" +
+            "Очень понравился рецепт, пойду повторю. И вы не тяните, пробуйте на здоровье!"+ "\n";
 
-    public static final String TITLE2 = "Pizza Margherita in 4 easy steps";
-    public static final String DESCRIPTION2 = "Even a novice cook can master the art of pizza with our simple step-by-step guide. Bellissimo";
-    public static final String RECIPE2 = "Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.\n" +
-            "\n" +
-            "Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.\n" +
-            "\n" +
-            "Roll out the dough: If you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.\n" +
-            "\n" +
-            "Top and bake: Heat oven to 240C/fan 220C /gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.";
+    public static final String TITLE2 = "\"Пицца\" из багета (горячие бутерброды с грибами и фаршем)";
+    public static final String DESCRIPTION2 = "Приготовить горячие бутерброды с грибами и фаршем \"а-ля пицца\" из багета - не составит труда!";
+    public static final String RECIPE2 =
+            "Продукты\n" +
+            "Багет - 1 шт. (450 г)\n" +
+            "Соус томатный (для пиццы) - 450 г\n" +
+            "Фарш говяжий - 225 г\n" +
+            "Шампиньоны консервированные - 225 г\n" +
+            "Сыр моцарелла - 225 г\n" +
+            "Масло растительное для жарки (по желанию)\n"
+            +"\n" + "\n" + "\n" +
+            "1. Шампиньоны нарезать тонкими ломтиками. Моцареллу натереть на терке.\n" +
+                    "\n" +
+                    "2. На сковороде с антипригарным покрытием на среднем огне обжарить мясной фарш до готовности.\n" +
+                    "\n" +
+                    "3. Добавить томатный соус и шампиньоны, перемешать и отставить.\n" +
+                    "\n" +
+                    "4. Разрезать хлеб вдоль пополам, а затем нарезать поперек так, чтобы получилось 8 кусков.\n" +
+                    "\n" +
+                    "5. Равномерно распределить мясной соус на ломтики багета.\n" +
+                    "\n" +
+                    "6. Выложить на противень, смазанный маслом.\n" +
+                    "\n" +
+                    "7. \"Пиццу\" из багета посыпать моцареллой.\n" +
+                    "\n" +
+                    "8. Запекать в духовке \"пиццу\" из багета примерно 10 минут при температуре 200 градусов."+"\n";
 
-    public static final String TITLE3 = "Caramelised onion & goat's cheese pizza";
-    public static final String DESCRIPTION3 = "Make a veggie pizza that's healthy and low-fat instead of ordering a takeaway. This easy recipe uses goat's cheese for tang while the onions give it sweetness...";
-    public static final String RECIPE3 = "Heat oven to 220C/200C fan/gas 7. Tip the flour into a mixer with a dough hook, or a bowl. Add the yeast, salt, oil and just under 100ml warm water then mix to a soft dough. Knead in the food mixer for about 5 mins, but if making this by hand, tip onto a work surface and knead for about 10 mins. The dough is sticky, but try not to add too much extra flour. Leave in the bowl and cover with a tea towel while you make the topping. There is no need to let the dough prove for a specific time – just let it sit while you get on with the next step.\n" +
-            "\n" +
-            "Tip the onions into a non-stick wok and add the oil, 4 tbsp water and balsamic vinegar. Cover with a saucepan lid that sits inside the pan to help the onions soften, then cook for 15 mins, stirring about 3 times and replacing the lid quickly so as not to lose too much moisture. After the time is up, the onions should be golden and all the liquid gone. Tip onto a plate. Add the spinach and garlic to the pan and stir-fry until the spinach has wilted.\n" +
-            "\n" +
-            "Take the dough from the bowl and cut in half with an oiled knife, then press each piece into a 25-15 cm oval on a large greased baking sheet with oiled hands. Don’t knead the dough first otherwise it will be too elastic and it will keep shrinking back.\n" +
-            "\n" +
-            "Spread with the spinach followed by the onions, then dot with the cheese and scatter with the olives, thyme and sunflower seeds. Bake for 15 mins until golden and the base is cooked through.";
+    public static final String TITLE3 = "\"Пицца\" на хлебе, с колбасой и сыром (на сковороде)";
+    public static final String DESCRIPTION3 = "\"Пиццу\" на хлебе можно приготовить утром для сытного завтрака или когда нет времени возиться с тестом. Начинка может быть любой, но я предпочитаю готовить такую пиццу с полукопчёной колбасой и сыром.";
+    public static final String RECIPE3 = "Продукты (на 4 порции)\n" +
+            "Яйца – 3 шт.\n" +
+            "Молоко – 60 мл\n" +
+            "Батон – 1/3 шт. (6 ломтиков)\n" +
+            "Колбаса полукопчёная – 100 г\n" +
+            "Сыр твёрдый – 60 г\n" +
+            "Кетчуп (или томатный соус) – 2 ст. ложки\n" +
+            "Соль – 1 щепотка (по вкусу)\n" +
+            "Масло растительное (для смазывания сковороды) – 1 ст. ложка\n" +
+            "Зелень свежая (для подачи, по желанию) – 1 веточка"+ "\n"+"\n"+"\n"+
+            "1. Подготовить все необходимые ингредиенты.\n" +
+            "Хлеб я взяла нарезной. Если у вас целый батон, нарежьте ломтиками толщиной примерно 1 см."+"\n"+
+            "2. В глубокую ёмкость разбейте яйца. Влейте молоко. Посолите по вкусу." +"\n" +
+            "3. Разболтайте вилкой." +"\n"+
+            "4. Колбасу нарежьте тонкими ломтиками." +"\n"+
+            "5. Сыр натрите на крупной тёрке." +"\n"+
+            "6. В яичной смеси обмакните ломтики хлеба и оставьте на 5 минут." +"\n"+
+            "7. Сковороду (диаметр дна - 23 см) смажьте растительным маслом. Выложите на дно сковороды 5 ломтиков хлеба. Оставшийся ломтик хлеба разломайте на кусочки и заполните им промежутки. Залейте хлеб оставшейся яичной смесью.\n" +
+            "Накройте сковороду крышкой и готовьте \"основу для пиццы\" на минимальном огне примерно 7 минут, чтобы яйца схватились." +"\n"+
+            "8. Теперь \"основу для пиццы\" можно перевернуть. Но если этого не делать, \"пицца\" получится нежнее. Выбор за вами.\n" +
+            "Смажьте \"основу для пиццы\" кетчупом или томатным соусом." +"\n"+
+            "9. Сверху выложите колбасу." +"\n"+
+            "10. Посыпьте сыром." +"\n"+
+            "11. Готовьте \"пиццу\" на хлебе под крышкой на минимальном огне, пока сыр не расплавится, 2 минуты." +"\n"+
+            "12. \"Пицца\" на хлебе, с колбасой и сыром, готова." +"\n"+
+            "13. Украсьте \"пиццу\" свежей зеленью." +"\n"+
+            "14. Разрежьте на порционные кусочки, как обычно разрезаете пиццу, и подавайте с чаем, кофе или томатным соком." +"\n"+
+            "15. Такая \"пицца\" хоть и далека от настоящей, но ничуть не хуже способна утолить голод." +"\n"+
+            "16. Приятного аппетита!" +"\n";
 
-    public static final String TITLE4 = "Superhealthy pizza";
-    public static final String DESCRIPTION4 = "The quantities for this are generous, so if you have any leftovers, pop a wedge of cold pizza into your lunchbox the next day";
-    public static final String RECIPE4 = "Mix the flours and yeast with a pinch of salt in a food processor fitted with a dough blade. Pour in the water and mix to a soft dough, then work for 1 min. Remove the dough and roll out on a lightly floured surface to a round about 30cm across. Lift onto an oiled baking sheet.\n" +
+    public static final String TITLE4 = "Cырная пицца";
+    public static final String DESCRIPTION4 = "Основа для сырной пиццы традиционно готовится из дрожжевого теста, а в качестве начинки используется томатный соус и два вида сыра.";
+    public static final String RECIPE4 = "Продукты (на 6 порций)\n" +
+            "Тесто для пиццы\n" +
+            "Сыр моцарелла (измельченный на терке) - 240 г (2 стакана)\n" +
+            "Сыр пармезан (измельченный на терке) - 60 г (0,5 стакана)\n" +
+            "Масло оливковое - 2 ч. л.\n" +
+            "Соус томатный или кетчуп - 1 стакан\n" +
+            "Масло растительное - для смазывания противня\n" +
             "\n" +
-            "Spread the canned tomatoes over the dough to within 2cm of the edges. Arrange the cherry tomatoes and courgettes over the top, then scatter with the mozzarella. Mix the capers, olives and garlic, then scatter over the top. Drizzle evenly with the oil. Leave to rise for 20 mins. Heat oven to 240C/ fan 220C/gas 9 or the highest setting.\n" +
             "\n" +
-            "Bake the pizza for 10-12 mins until crisp and golden around the edges. Scatter with the parsley to serve.";
+            "\n" +
+            "Как приготовить сырную пиццу:\n" +
+            "\n" +
+            "1. Одну решетку установить на среднюю позицию в духовке, а вторую на нижнюю позицию. Саму духовку включить для предварительного разогрева до 250 градусов.\n" +
+            "\n" +
+            "2. Тесто раскатать в круг и переложить на промасленный противень, смазать оливковым маслом. Поместить в духовку на нижнюю полку и выпекать около 8 минут.\n" +
+            "\n" +
+            "3. Достать корж из духовки, смазать соусом и посыпать всем сыром. Поместить пиццу на среднюю полку в духовке и выпекать сырную пиццу еще 7-10 минут, до расплавления сыра.\n" +
+            "\n" +
+            "4. Готовую сырную пиццу порезать порционными кусочками и подавать сразу же."+ "\n" ;
 
-    public static final String TITLE5 = "Frying pan pizza";
-    public static final String DESCRIPTION5 = "Not good for you? Think again, this easy to make pizza is low fat and full of calcium";
-    public static final String RECIPE5 = "Heat oven to 220C/fan 200C/gas 7. Place the pepper, courgette and red onion on a large non-stick baking tray and drizzle with 1 tsp olive oil. Season well and toss to combine. Roast in the oven for 20 mins until soft and beginning to brown. Set aside.\n" +
-            "\n" +
-            "Heat the grill to medium. Season the flour well and, in a large bowl, mix with the remaining oil and 4-5 tbsp water to form a soft dough. Knead briefly, then roll out on a floured surface to a rough 20cm circle. Transfer the dough to a large ovenproof, non-stick frying pan and fry over a medium heat for 5 mins, until the underside begins to brown. Turn over and cook for a further 5 mins. Spread the tomato sauce over the base, scatter with the roasted veg, then sprinkle with cheddar. Grill the pizza for 3-4 mins until cheese has melted. Serve immediately, sliced into wedges, with a large green salad.";
 
-    public static final String TITLE6 = "Egg & rocket pizzas";
-    public static final String DESCRIPTION6 = "Use seeded tortillas as pizza bases for a quick and healthy lunch - crack an egg in the centre and bake to boost protein intake";
-    public static final String RECIPE6 = "Heat oven to 200C/180C fan/gas 6. Lay the tortillas on two baking sheets, brush sparingly with the oil then bake for 3 mins. Meanwhile chop the pepper and tomatoes and mix with the tomato purée, seasoning and herbs. Turn the tortillas over and spread with the tomato mixture, leaving the centre free from any large pieces of pepper or tomato.\n" +
+    public static final String TITLE5 = "Американская пицца";
+    public static final String DESCRIPTION5 = "Рецепт пиццы с сыром, шампиньонами, колбасой салями и оливками. В отличие от классической итальянской пиццы, американская пицца готовится на более толстом дрожжевом корже и с большим количеством начинки. Американская пицца может содержать в себе различные ингредиенты, но одно из главных условий - побольше сыра!";
+    public static final String RECIPE5 = "Продукты (на 16 порций)\n" +
+            "Для теста:\n" +
+            "Яйцо - 1 шт.\n" +
+            "Мука - 500 г\n" +
+            "Вода теплая - 250 мл\n" +
+            "Сахар - 1 ст. л.\n" +
+            "Соль - 1,5 ч. л.\n" +
+            "Дрожжи сухие - 1,5 ч. л.\n" +
+            "Масло оливковое - 2 ст. л.\n" +
+            "*\n" +
+            "Для начинки:\n" +
+            "Сыр моцарелла - 250 г\n" +
+            "Сыр пармезан или другой твердый сыр - 100 г\n" +
+            "Колбаса салями - 200 г\n" +
+            "Шампиньоны - 150 г\n" +
+            "Оливки без косточек - 100 г\n" +
+            "Соус томатный - 200 г\n" +
             "\n" +
-            "Break an egg into the centre then return to the oven for 10 mins or until the egg is just set and the tortilla is crispy round the edges. Serve scattered with the rocket and onion.";
+            "\n" +
+            "\n" +
+            "1. Подготовьте продукты для теста.\n" +
+            "\n" +
+            "2. Подготовьте продукты для начинки.\n" +
+            "\n" +
+            "3. Как приготовить американскую пиццу с сыром, колбасой, грибами и оливками:\n" +
+            "\n" +
+            "4. Из указанных ингредиентов приготовьте дрожжевое тесто для пиццы и дайте ему подойти в теплом месте (я использовала хлебопечку).\n" +
+            "\n" +
+            "5. Разделите тесто на две части. Возьмите форму диаметром примерно 22 см. Раскатайте тесто для пиццы в 2 лепешки и выложите в форму. В итоге у нас должно получиться две пиццы.\n" +
+            "\n" +
+            "6. Смажьте каждую лепешку томатным соусом, выложите сверху ломтики грибов и моцареллы.\n" +
+            "\n" +
+            "7. Добавьте ломтики салями и оливки. Кто не любит целые оливки, может порезать их помельче.\n" +
+            "\n" +
+            "8. Обильно посыпьте сверху тертым на мелкой терке пармезаном (я покупала сразу натертый сыр).\n" +
+            "\n" +
+            "9. Отправьте пиццу с сыром и грибами в предварительно разогретую до 220-240 градусов духовку. Выпекайте до появления золотистой корочки на сыре - около 25 минут. Готовую пиццу немного остудите и подавайте к столу.\n" +
+            "Приятного аппетита!" +"\n";
 
-    public static final String TITLE7 = "Sourdough pizza";
-    public static final String DESCRIPTION7 = "Make homemade sourdough pizza with a wonderfully chewy crust. Try our margherita recipe, then customise with your favourite toppings";
-    public static final String RECIPE7 = "Make a batch of our white sourdough, following the recipe to the end of step 4. When the dough is ready, tip it onto a lightly floured surface and divide into six equal pieces. Roll into balls and leave to rest on a floured tray, covered with a damp teatowel, in the fridge for at least 4 hrs, and up to 18 hrs – the longer you leave the dough, the more sour it will taste.\n" +
+    public static final String TITLE6 = "Бездрожжевое тесто для пиццы";
+    public static final String DESCRIPTION6 = "Вы решили приготовить пиццу, а времени на дрожжевое тесто нет? Ничего, этот рецепт бездрожжевого теста для пиццы не потребует много времени и усилий.";
+    public static final String RECIPE6 = "Продукты\n" +
+            "Мука - 2 стакана\n" +
+            "Кефир - 1 стакан\n" +
+            "Яйца куриные - 1 шт.\n" +
+            "Маргарин - 5 ст. ложек\n" +
+            "Соль - 1 щепотка\n" +
+            "\n"+
+            "\n"+
+            "1. Приготовьте продукты для приготовления теста для пиццы бездрожжевого.\n" +
             "\n" +
-            "Meanwhile, make the tomato sauce. Drain some of the juice from the plummed tomatoes and tip the rest into a bowl with the olive oil, oregano and a generous pinch of salt. Combine by either scrunching everything together with your fingers (this will make a chunky sauce) or blitz with a stick blender (this will make a smooth sauce). Chill until needed.\n" +
+            "2. Как приготовить вкусное тесто для пиццы:\n" +
             "\n" +
-            "To make the pizzas, heat a grill to high and prepare an ovenproof frying pan. On a floured surface, push and stretch a ball of dough into a circle roughly the same size as the pan. Get the pan very hot, then working quickly and carefully, drape it into the pan, spread over some of the sauce, a handful of mozzarella and some basil, if using.  \n" +
+            "2.1. Растопить маргарин в сковороде на самом маленьком огне.\n" +
             "\n" +
-            "Cook for 2 mins, until little bubbles appear, then put the pan under the grill for another 2-4 mins until the sides are puffed up and the cheese has melted. Remove, drizzle with a little olive oil and cut into wedges. Repeat with the remaining dough. ";
+            "2.2. Налить в миску 1 стакан кефира.\n" +
+            "\n" +
+            "2.3. Яйцо вбить в кефир.Перемешать.\n" +
+            "\n" +
+            "2.4. Положить растопленный маргарин.\n" +
+            "\n" +
+            "2.5. Хорошо перемешать.\n" +
+            "\n" +
+            "2.6. Просеять муку. Всыпать муку, соль.\n" +
+            "\n" +
+            "2.7. Замесить тесто для пиццы.\n" +
+            "\n" +
+            "3. Бездрожжевое тесто для пиццы готово.\n";
 
-    public static final String TITLE8 = "Chicken tikka masala pizzas";
-    public static final String DESCRIPTION8 = "Rustle up our spiced chicken pizzas using naan bread in just 20 minutes. To balance the heat, serve them with dollops of mango chutney and natural yogurt";
-    public static final String RECIPE8 = "Heat oven to 180C/160C fan/gas 4. Toss the red onion with the red wine vinegar and a good pinch of salt and set aside (the vinegar will soften the onion slightly, which is a blessing as no one wants completely raw onion on pizza).\n" +
+    public static final String TITLE7 = "Блинная пицца с колбасой и помидорами";
+    public static final String DESCRIPTION7 = "Рецепт пиццы, которая удивит любого! Блинная пицца - это отличное решение, если у вас остались блинчики и хочется подать их как-то по-новенькому! Пицца на блинах получается ничем не хуже, чем пицца на классической основе. Особенно такая пицца понравится любителям пиццы на тонком тесте с большим количеством начинки.";
+    public static final String RECIPE7 = "Продукты (на 1 порцию)\n" +
+            "Блинчики тонкие (диаметром 22 см) - 4 шт.\n" +
+            "Яйцо - 1 шт.\n" +
+            "*\n" +
+            "Для начинки:\n" +
+            "Колбаса сыровяленая - 60 г\n" +
+            "Сыр твёрдый - 60 г\n" +
+            "Помидор - 0,5 шт.\n" +
+            "Лук зелёный - несколько перьев\n" +
+            "Кетчуп (или томатный соус) - 1,5 ст. ложки\n" +
+            "Травы сушёные (у меня базилик) - 1 ч. ложка\n" +
+            "\n" + "\n" +
+            "Подготавливаем все необходимые ингредиенты для приготовления блинной пиццы с колбасой и помидорами.\n" +
             "\n" +
-            "Put the naan breads on a baking tray, sprinkle over a little water, then put in the oven for 2 mins to heat up. Meanwhile, put the chicken and peppers in a frying pan with the curry paste, toss together, then fry over a high heat for 6-8 mins until cooked.\n" +
+            "Для блинной пиццы подойдут тонкие блинчики, приготовленные практически без сахара, желательно большого диаметра. Для одной такой пиццы понадобится 4 блинчика. Я приготовила скороспелые блинчики (рецепт см. по ссылке в списке ингредиентов), уменьшив количество сахара в тесте до 0,5 ст. ложки. Диаметр блинчиков - 22 см.\n" +
             "\n" +
-            "Take the naans out the oven, spread each one with yogurt, then top with the chicken, red onion, green chilli, coriander and mango chutney.";
+            "Яйцо разделяем на желток и белок. Белок нам не понадобится, а желток нужно разболтать вилкой.\n" +
+            "(Вместо желтка можно использовать остатки блинного теста или смесь молока, соли и муки.)\n" +
+            "\n" +
+            "Формируем основу для пиццы.\n" +
+            "В форму для запекания или на противень, покрытый пергаментом, выкладываем один блинчик.\n" +
+            "\n" +
+            "Смазываем блинчик желтком.\n" +
+            "\n" +
+            "Накрываем нижний блинчик ещё одним блинчиком, который также смазываем желтком.\n" +
+            "\n" +
+            "Затем выкладываем третий блинчик, смазываем его оставшейся желтковой смесью и накрываем последним четвёртым блином.\n" +
+            "\n" +
+            "Духовку включаем для разогрева до 200 градусов.\n" +
+            "Основу для пиццы смазываем кетчупом или томатным соусом.\n" +
+            "\n" +
+            "Посыпаем сухими травами (я использовала сушёный базилик).\n" +
+            "\n" +
+            "Колбасу очищаем от оболочки, нарезаем кружочками и выкладываем на блинную основу.\n" +
+            "\n" +
+            "Помидор моем, разрезаем пополам и нарезаем тонкими ломтиками. Выкладываем ломтики помидора между кружочками колбасы.\n" +
+            "\n" +
+            "Перья зелёного лука моем, обсушиваем и нарезаем тонкими колечками. Посыпаем основу пиццы зелёным луком.\n" +
+            "\n" +
+            "Твёрдый сыр натираем на крупной тёрке, засыпаем им начинку.\n" +
+            "\n" +
+            "Выпекаем блинную пиццу с колбасой и помидорами в духовке, предварительно разогретой до 200 градусов, около 8 минут, до расплавления сыра.\n" +
+            "\n" +
+            "Пицца на блинах готова. Подавайте такую пиццу в горячем виде сразу после выпечки.\n" +
+            "Приятного аппетита!"+ "\n";
 
-    public static final String TITLE9 = "Ultimate pizza Margherita";
-    public static final String DESCRIPTION9 = "Take your senses on a trip to Italy with this authentic pizza Margherita";
-    public static final String RECIPE9 = "In a bowl, mix flour, semolina, salt and yeast. Make a dip in the middle, pour in oil, water, then stir and squeeze everything together (hands are easiest for this). The dough should feel very sticky (pic 1). When it is well mixed, cover and leave for 15 mins.\n" +
+    public static final String TITLE8 = "Бруклинская пицца";
+    public static final String DESCRIPTION8 ="Основными ингредиентами для такой бруклинской пиццы являются сыр, помидоры и травы.";
+    public static final String RECIPE8 = "Продукты\n" +
+            "Для теста:\n" +
+            "Дрожжи сухие, быстродействующие - 1 ч. л.\n" +
+            "Вода теплая - 1 1/4 стакана\n" +
+            "Соль - 1 ч. л.\n" +
+            "Мука хлебная - 2 стакана\n" +
+            "Мука пшеничная - 1 стакан\n" +
+            "*\n" +
+            "Для начинки:\n" +
+            "Сыр Моцарелла (резаный тонкими ломтиками) - 350 г\n" +
+            "Орегано (сушеный) - 1 ч. л.\n" +
+            "Черный молотый перец по вкусу\n" +
+            "Помидоры, консервированные без шкурки (резаные) - 1 стакан\n" +
+            "Масло оливковое экстра класса - 3 ст. л.\n" +
+            "Базилик сушеный - 1/2 ч. л.\n" +
+            "Свежие листочки базилика (порванные) - 6-8 шт.\n" +
+            "\n" +"\n" +
+            "1. В большой миске смешать оба вида муки. В чашу кухонного комбайна или большую миску налить теплую воду, насыпать сухие дрожжи и оставить на 5 минут, чтобы дрожжи разошлись. Затем добавить соль, размешать. Добавлять по одному стакану муки и хорошо перемешивать. Когда тесто будет достаточно однородным, пересыпать его на присыпанную мукой поверхность и замешивать руками около 5 минут, до однородного, эластичного состояния.\n" +
             "\n" +
-            "Tip the dough on to a lightly oiled work surface and rub your hands and the inside of the bowl with oil. Knead the dough about 12 times only, giving it a quarter turn each time you knead. Tuck the ends under so it is the shape of a ball and lay it in the bowl, seam side down. Cover and leave for 10 mins. Repeat the kneading and leaving for 10 mins again, then knead and leave for 15 mins, oiling the surface and your hands each time.\n" +
+            "2. Тесто для пиццы разделить на две части и положить в слегка промасленную миску, накрыть пищевой пленкой и поставить в теплое место на 2-3 часа (тесто должно увеличиться в объеме в два раза). Подошедшее тесто слегка обмять и раскатать в два круга, диаметром около 30 см. Включить духовку для предварительного разогрева до 250 градусов.\n" +
             "\n" +
-            "In between kneadings make the sauce for the topping. Drain the tomatoes and tip them into a bowl. Snip them into small pieces with scissors (pic 2). Stir in garlic, tomato purée, and seasoning. Set aside. Brush a baking sheet with oil and sprinkle with a little semolina. Heat oven to 240C/fan 220C/gas 9.\n" +
+            "3. На противень выложить один круг теста и выложить на него половину моцареллы, посыпать черным молотым перцем и сушеным базиликом и орегано. Сверху выложить 1/2 резаных помидоров, сбрызнуть 1 1/2 чайной ложки оливкового масла.\n" +
             "\n" +
-            "When the dough is ready, cut in half and put one half onto a lightly fl oured surface. Knead 4-5 times to squash out any air bubbles, then roll it out. At the point where it just keeps springing back, brush off the flour from the work surface and rub on a little oil. This makes it easier to roll. Continue to roll out until you have a 28cm circle, pulling it into shape as well. Lift it onto the baking sheet (it’s easier if you drape it over a rolling pin).\n" +
-            "\n" +
-            "Drain the mozzarella, then pat dry with kitchen paper. Brush the dough with olive oil, then spread half the sauce over, almost up to the edge. Scatter over half the basil, then tear up one mozzarella ball and scatter over the basil (pic 3). Grate over pepper and drizzle with a little oil. Bake for 12-15 mins, until the topping is bubbling and the dough is going brown. Repeat with the remaining dough and toppings. To serve, scatter with parmesan shavings, rocket leaves and drizzle with oil.";
+            "4. Поставить противень в разогретую духовку и запекать пиццу в течение около 4-6 минут, до золотистого цвета коржа. Посыпать готовую пиццу листочками свежего базилика. Приготовить таким же образом вторую пиццу."+"\n";
 
-    public static final String TITLE10 = "Pizza with homemade sauce";
-    public static final String DESCRIPTION10 = "Make pizza for the family with a homemade base and tomato sauce. The recipe is perfect to get kids involved in cooking. Top with mozzarella and fresh basil";
-    public static final String RECIPE10 = "Pizza with homemade sauce";
+    public static final String TITLE9 = "Брускетта - пицца";
+    public static final String DESCRIPTION9 = "Брускетта готовится из хлеба и заправляется разными начинками. Сегодня предлагаю вам попробовать брускетте из черствого батона. Дешево и сердито, из серии \"хорошая хозяйка никогда ничего не выбрасывает\"!";
+    public static final String RECIPE9 = "Продукты\n" +
+            "Батон - 1/2-1 шт.\n" +
+            "Молоко - 100 мл\n" +
+            "Сальса из помидоров - 200 мл\n" +
+            "Орегано - 1 щепотка\n" +
+            "Оливковое масло - 15 мл\n" +
+            "Соль\n" +
+            "Моцарелла - 125 гр\n" +
+            "Ветчина - 100 г\n" +
+            "\n" + "\n" +
+            "Как приготовить брускетту с сыром:\n" +
+            "Батон режем на ломтики и выкладываем их на противень, покрытый бумагой для выпечки.\n" +
+            "На каждый ломтик выливаем немного молока.\n" +
+            "\n" +
+            "Сырую сальсу из помидоров смешиваем с орегано, солим и добавляем немножко оливкового масла.\n" +
+            "Каждый ломтик смазываем сальсой. Выкладываем сыр моцарелла и ветчину, порезанные кубиками.\n" +
+            "Конечно, начинка для брускетты может меняться в зависимости от содержимого вашего холодильника! Например, копченый колбасный сыр и бекон. Салями и российский сыр. Тунец и тонко порезанный полукольцами лук. Маслины и анчоусы. Фантазии нет предела!\n" +
+            "\n" +
+            "Запекаем брускетте при 180 г 10 мин. Приятного аппетита!" +  "\n";
+
+    public static final String TITLE10 = "Булочки-пиццы с мясом, помидорами и сыром";
+    public static final String DESCRIPTION10 = "Мягкое тесто и любимая начинка! Сегодня поделюсь с вами любимым рецептом булочек с мясом, помидорами и сыром. Булочка-пицца в нашей семье никогда не успевает остыть, сколько бы не готовили! Пробуйте, готовьте для себя и своих близких!";
+    public static final String RECIPE10 = "Продукты\n" +
+            "Для теста:\n" +
+            "Молоко - 125 мл\n" +
+            "Мука - 250 г + для работы с тестом\n" +
+            "Дрожжи сухие - 1/2 ч. ложки\n" +
+            "Сахар - 2 ст. ложки\n" +
+            "Яйцо - 1 шт.\n" +
+            "Масло сливочное - 40 г\n" +
+            "Соль - 1/2 ч. ложки\n" +
+            "Масло растительное - для работы с тестом\n" +
+            "*\n" +
+            "Для начинки:\n" +
+            "Грудка индейки запеченная (или колбаса) - по вкусу\n" +
+            "Сыр моцарелла - 8 ломтиков\n" +
+            "Помидоры черри - 5 шт.\n" +
+            "\n" +
+            "\n" +
+            "Для начала занимаемся тестом.\n" +
+            "Сливочное масло растапливаем.\n" +
+            "\n" +
+            "Проверяем дрожжи на работоспособность: делаем быструю опару.\n" +
+            "В чашку всыпаем муку, делаем углубление. Вливаем в углубление теплое молоко, всыпаем дрожжи и сахар. Немного перемешиваем молоко с дрожжами и сахаром. Даем опаре постоять пару минут.\n" +
+            "\n" +
+            "Яйца разбалтываем и добавляем к опаре. Туда же сливочное масло и соль.\n" +
+            "Замешиваем мягкое, слегка липнущее тесто. Не забивайте тесто мукой, при замесе смажьте руки растительным маслом.\n" +
+            "\n" +
+            "Готовое тесто отправляем в чашку, накрываем крышкой или пленкой и даем ему хорошо подняться в теплом месте минут 40-60.\n" +
+            "\n" +
+            "Теперь расскажу про свою начинку. Запеченная грудка в специях (часто готовим вместо колбасы), сыр и помидоры. Буду использовать горсть черри (только что с грядки).\n" +
+            "\n" +
+            "Стол припыляем мукой, достаем тесто и слегка обминаем. Делим тесто на восемь частей, округляем и даем отдохнуть минут 10.\n" +
+            "\n" +
+            "Сыр нарезаем пластинками. Грудку птицы нарезаем квадратиками. Помидорки нарезаем кружочками.\n" +
+            "Потом раскатываем колобочки теста в небольшие лепешки, добавляем начинку: по 1 пластинке сыра, примерно по столовой ложке мяса и по два кружка помидоров.\n" +
+            "\n" +
+            "Края теста подтягиваем к центру, чтобы начинка оказалась внутри, и хорошо защипываем, формируя круглые булочки.\n" +
+            "\n" +
+            "Булочки выкладываем на противень, застеленный пергаментом, и даем им расстояться минут 20.\n" +
+            "Духовку тем временем разогреваем до 200 градусов.\n" +
+            "\n" +
+            "После чего желток смешиваем с молоком и смазываем булочки.\n" +
+            "\n" +
+            "Выпекаем булочки с индейкой, помидорами и сыром в хорошо разогретой духовке при температуре 180-200 градусов минут 7-10.\n" +
+            "\n" +
+            "Приятного аппетита!"+"\n";
 
 }

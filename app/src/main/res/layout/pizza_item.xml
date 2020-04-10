@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/pizzaImageView"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
         android:padding="4dp"/>
 
     <TextView
